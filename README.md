@@ -44,10 +44,10 @@ The application follows a two-phase pipeline: **Ingestion** and **Retrieval/Gene
 
 *   **Core Framework:** Python 3.8+
 *   **Web Framework:** FastAPI (with Uvicorn ASGI server)
-*   **LLM Integration:** [Insert your LLM here, e.g., OpenAI / Llama3 / Gemini]
-*   **Embedding Model:** [Insert your model here, e.g., HuggingFace MiniLM / OpenAI Ada]
-*   **Vector Database:** [Insert your DB here, e.g., ChromaDB / FAISS / Pinecone]
-*   **Document Processing:** [Insert libraries, e.g., LangChain / PyPDF2 / BeautifulSoup]
+*   **LLM Integration:**  Llama3 / Gemini
+*   **Embedding Model:** HuggingFace MiniLM / OpenAI Ada
+*   **Vector Database:** ChromaDB
+*   **Document Processing:** LangChain / PyPDF2 / BeautifulSoup
 
 ---
 
@@ -91,8 +91,6 @@ Ensure you have the following installed on your machine:
     LLM_API_KEY=your_api_key_here
     EMBEDDING_API_KEY=your_embedding_key_here
     VECTOR_DB_URL=your_database_url_here
-    MAX_TOKENS=500
-    DEBUG_MODE=True
     ```
 
 ### Running the Application
